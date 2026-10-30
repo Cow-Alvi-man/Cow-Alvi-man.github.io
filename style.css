@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #f3f5f4;
+    color: #26332d;
+}
+main {
+    max-width: 520px;
+    margin: 24px;
+    padding: 32px;
+    text-align: center;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px #26332d18;
+}
+.profile-image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #e5ebe7;
+}
+
+nav {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+}
